@@ -9,7 +9,9 @@ public class app2 {
         livro.preco = 99.88;
         livro.autor = "Jason Aaron";
         livro.datapub = "2024";
-        System.out.println(livro); 
+        System.out.println(livro.descricao); 
+
+        livro.dadosLivros();
 
     }
 }
